@@ -15,14 +15,28 @@ html{
 	background-color: #FEEFD6; /* MDN color selctor */
 }
 h1{
-	font-size: 2.027em;
-	line-height: 1.222em;
+	font-size: 2.188em; /* 35px/16px=2.188em*/
+	line-height: 1.2em; /* 35px*120% = 42px/23px=1.2em */
+}
+h2, h3, h4, h5, h6{
+	font-size: 1.25em;
+	line-height: 1.2em;
+}
+h2{
+	font-size: 1.602em;
 }
 img{
 	width: 100%
 }
 li{
 	list-style: disc;
+}
+body{
+	padding: 1.5em ;
+}
+p{
+	text-indent: 5%;
+	line-height: 1.2
 }
 /* Layout Styles */
 /*
@@ -31,14 +45,17 @@ li{
   2. concerned with layout and spatial
      relationships
 */
-body{
-	padding: 1.5em ;
-}
-#contact{
+
+#contact li{
 	list-style: none;
 }
-#links{
+#links li{
 	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#footer p{
+	text-indent: 0%;
 }
 /* Modular Styles */
 /*
