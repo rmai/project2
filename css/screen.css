@@ -17,10 +17,12 @@ html{
 h1{
 	font-size: 2.188em; /* 35px/16px=2.188em*/
 	line-height: 1.2em; /* 35px*120% = 42px/23px=1.2em */
+	font-weight: bolder;
 }
 h2, h3, h4, h5, h6{
 	font-size: 1.25em;
 	line-height: 1.2em;
+	font-weight: bold;
 }
 h2{
 	font-size: 1.602em;
@@ -30,9 +32,11 @@ img{
 }
 li{
 	list-style: disc;
+	padding-left: 1em;
 }
 body{
-	padding: 1.5em ;
+	margin: 0;
+	padding: 1em;
 }
 p{
 	text-indent: 5%;
@@ -46,6 +50,39 @@ p{
      relationships
 */
 
+.nav ul {
+  list-style: none;
+  background-color: #FAAD28;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+	display: inline-block;
+	margin-right: -4px;
+}
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+.nav a:hover {
+  background-color: #005f5f;
+}
+.nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+
+.work{
+	font-weight: normal;
+}
 #contact li{
 	list-style: none;
 }
