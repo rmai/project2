@@ -14,6 +14,10 @@ html{
 	line-height: 1.222em; /* base=18px * 120% ~ (120%/font size)22px/18 px= 1.222em */
 	background-color: #FEEFD6; /* MDN color selctor */
 }
+h1{
+	font-size: 2.027em;
+	line-height: 1.222em;
+}
 img{
 	width: 100%
 }
@@ -32,6 +36,9 @@ body{
 }
 #contact{
 	list-style: none;
+}
+#links{
+	list-style-type: none;
 }
 /* Modular Styles */
 /*
