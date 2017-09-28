@@ -17,6 +17,9 @@ html{
 img{
 	width: 100%
 }
+li{
+	list-style: disc;
+}
 /* Layout Styles */
 /*
   Hint: these tend to be
@@ -25,9 +28,11 @@ img{
      relationships
 */
 body{
-
+	padding: 1.5em ;
 }
-
+#contact{
+	list-style: none;
+}
 /* Modular Styles */
 /*
   Repeating style patterns.
