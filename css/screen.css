@@ -9,62 +9,10 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Begin site styles below */
 
 /* Base Styles */
-/*
-  Hint: these tend to be
-  1. element selectors
-  2. concerned with color and typography
-  3. basic element presenation
-*/
-
-html {
-  font-size: 1.125em; /* 18 / 16 = 1.125 */
-  line-height: 1.222em; /* 22 / 18 = 1.2222222222 */
-}
-body {
-  padding-top: 44px;
-  padding-right: 22px;
-  padding-left: 22px;
-}
-
-
-h1,h2,h3,h4,h5,h6,p {
-  padding-bottom: 1.222em; /* 22 / 18 = 1.2222222222 */
-}
-
-ol,ul {
-  padding-bottom: 0.611em; /* 11 / 18 = 0.6111111 */
-}
-ol {
-  list-style-type: decimal;
-}
-ul {
-  list-style-type: square;
-}
-li ol,
-li ul {
-  padding-top: 0.611em; /* 11 / 18 = 0.6111111 */
-  padding-left: 1.222em; /* 22 / 18 = 1.2222222222 */
-  padding-bottom: 0;
-}
-li ol {
-  list-style-type: lower-alpha;
-}
-li li ol {
-  list-style-type: lower-roman;
-}
-li {
-  padding-bottom: 0.611em; /* 11 / 18 = 0.6111111 */
-}
-li li:last-child {
-  padding-bottom: 0;
-}
-
-/* Responsive Media */
-img,
-video,
-audio {
-  display: block;
-  max-width: 100%;
+html{
+	font-size:1.125em; /* target/actual 18px/16px=1.125em */
+	line-height: 1.222em; /* base=18px * 120% ~ (120%/font size)22px/18 px= 1.222em */
+	background-color: #FEEFD6; 
 }
 
 /* Layout Styles */
@@ -74,7 +22,9 @@ audio {
   2. concerned with layout and spatial
      relationships
 */
+body{
 
+}
 
 /* Modular Styles */
 /*
