@@ -12,9 +12,11 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html{
 	font-size:1.125em; /* target/actual 18px/16px=1.125em */
 	line-height: 1.222em; /* base=18px * 120% ~ (120%/font size)22px/18 px= 1.222em */
-	background-color: #FEEFD6; 
+	background-color: #FEEFD6; /* MDN color selctor */
 }
-
+img{
+	width: 100%
+}
 /* Layout Styles */
 /*
   Hint: these tend to be
