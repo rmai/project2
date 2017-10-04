@@ -167,11 +167,16 @@ img {
   2. Influenced by JavaScript
   3. Organized by Base, Layout, Module, State
 */
-@media screen and (min-width:314px) {
+@media screen and (min-width:27.625em)/*442px/16px = 27.625em*/ {
 	.nav ul {
-		word-spacing: 1000%;
+		word-spacing: 5em;
 	}
 	.nav li {
 			display: inline-block;
+	}
+}
+@media screen and (min-width:50.875em) /*814px/16px = 50.875em*/ {
+	.nav ul {
+		word-spacing: 15em;
 	}
 }
