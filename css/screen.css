@@ -10,8 +10,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Base Styles */
 html{
-	font-size:1.125em; /* target/actual 18px/16px=1.125em */
-	line-height: 1.222em; /* base=18px * 120% ~ (120%/font size)22px/18 px= 1.222em */
+	font-size:1em; /* target/actual 16px/16px=1em */
+	line-height: 1.2em; /* base=16px * 120% ~ (120%/font size)19.2px/16 px= 1.2em */
 	background-color: #FEEFD6; /* MDN color selctor */
 }
 body{
@@ -20,7 +20,20 @@ body{
 	padding-left: 22px;
 }
 h1, h2, h3, h4, h5, h6, p{
-	padding-bottom: 1.222em; /* 22px/18px=1.222 */
+	padding-bottom: 1em; /* 22px/16px=1.222 */
+	font-weight: bold;
+}
+h1{
+	padding-top: 1.222em;
+	font-size: 2.188em; /* 35px/16px=2.188em*/
+	line-height: 1.2em; /* 35px*120% = 42px/23px=1.2em */
+}
+h2{
+	font-size: 1.602em;
+}
+h3, h4, h5, h6{
+	font-size: 1.25em;
+	line-height: 1.2em;
 }
 li{
 	padding-bottom: 0.6111em; /* 11/18=0.6111 */
@@ -80,6 +93,7 @@ img{
 }
 #contact li{
 	list-style: none;
+	line-height: 0.5em;
 }
 #links li{
 	list-style-type: none;
