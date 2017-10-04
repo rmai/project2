@@ -9,55 +9,55 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Begin site styles below */
 
 /* Base Styles */
-html{
+html {
 	font-size:1em; /* target/actual 16px/16px=1em */
 	line-height: 1.2em; /* base=16px * 120% ~ (120%/font size)19.2px/16 px= 1.2em */
 	background-color: #FEEFD6; /* MDN color selctor */
 }
-body{
-	padding-top: 44px;
-	padding-right: 22px;
-	padding-left: 22px;
+body {
+	padding-top: 2em;
+	padding-right: 1em;
+	padding-left: 1em;
 }
-h1, h2, h3, h4, h5, h6, p{
+h1, h2, h3, h4, h5, h6, p {
 	padding-bottom: 1em; /* 22px/16px=1.222 */
 	font-weight: bold;
 }
-h1{
+h1 {
 	padding-top: 1.222em;
 	font-size: 2.188em; /* 35px/16px=2.188em*/
 	line-height: 1.2em; /* 35px*120% = 42px/23px=1.2em */
 }
-h2{
+h2 {
 	font-size: 1.602em;
 }
-h3, h4, h5, h6{
+h3, h4, h5, h6 {
 	font-size: 1.25em;
 	line-height: 1.2em;
 }
-li{
+li {
 	padding-bottom: 0.6111em; /* 11/18=0.6111 */
 }
-ol, ul{
+ol, ul {
 	padding-bottom: 0.6111em; /* 11/18=0.6111 */
 }
-ol{
+ol {
 	list-style-type: decimal;
 }
-ul{
+ul {
 	list-style-type: disc;
 	list-style-position: inside;
 }
 li ol,
-li ul{
-	padding-top: 11px;
-	padding-left: 22px;
+li ul {
+	padding-top: 0.5em; /* 11px/22px=0.5em */
+	padding-left: 1em;
 	padding-bottom: 0;
 }
-li li:last-child{
+li li:last-child {
 	padding-bottom: 0;
 }
-li li ul{
+li li ul {
 	list-style-type: circle;
 }
 img{
