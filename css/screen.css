@@ -4,7 +4,6 @@
 */
 
 /* stylelint-disable*/
-
 a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
 	margin: 0;
 	padding: 0;
@@ -17,43 +16,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 	display: block
 }
 
-html {
-	line-height: 1
-}
-
-body {
-	line-height: inherit
-}
-
-ol, ul {
-	list-style: none
-}
-
-blockquote, q {
-	quotes: none
-}
-
-blockquote:after, blockquote:before, q:after, q:before {
-	content: '';
-	content: none
-}
-
-table {
-	border-collapse: collapse;
-	border-spacing: 0
-}
-
-/* stylelint-enable */
-
-/* Begin site styles below */
-
 /* Base Styles */
 
 html {
-	font-size: 1em;
-	/* target/actual 16px/16px=1em */
+	font-size: 1.125em;
+	/* target/actual 18px/16px=1.125em */
 	line-height: 1.2em;
-	/* base=16px * 120% ~ (120%/font size)19.2px/16 px= 1.2em */
+	/* base=18px * 120% ~ (120%/font size)19.2px/18px = 1.2em */
 	background-color: #FEEFD6;
 	/* MDN color selctor */
 }
@@ -67,9 +36,10 @@ body {
 h1, h2, h3, h4, h5, h6, p {
 	padding-bottom: 1em;
 	/* 22px/16px=1.222 */
+}
+h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
 }
-
 h1 {
 	padding-top: 1.222em;
 	font-size: 2.188em;
