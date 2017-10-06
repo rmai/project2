@@ -27,10 +27,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 html {
 	font-size: 1.125em;
 	/* target/actual 18px/16px=1.125em */
-	line-height: 1.2em;
-	/* base=18px * 120% ~ (120%/font size)19.2px/18px = 1.2em */
-	background-color: #FEEFD6;
-	/* MDN color selctor */
+	line-height: 1.222em;
+	/* 22/18=1.222 */
 }
 
 body {
@@ -55,7 +53,7 @@ h2, h3, h4, h5, h6 {
 	font-size: 2.281em;
 	/* 36.491px/16px = 2.281*/
 	line-height: 0.904em;
-	/* 33px/36.491px = 0.904em*/
+	/* 22px/36.491px = 0.904em*/
 }
 p {
 	padding-bottom: 1.125em;
@@ -63,13 +61,13 @@ p {
 }
 
 li {
-	padding-bottom: 0.6111em;
-	/* 11/18=0.6111 */
+	padding-bottom: 0.818em;
+	/* 18/22=0.6111 */
 }
 
 ol, ul {
-	padding-bottom: 0.6111em;
-	/* 11/18=0.6111 */
+	padding-bottom: 0.818em;
+	/* 18/22=0.818em */
 }
 
 ol {
@@ -82,8 +80,8 @@ ul {
 }
 
 li ol, li ul {
-	padding-top: 0.5em;
-	/* 11px/22px=0.5em */
+	padding-top: 0.818em;
+	/* 18px/22px=0.818em */
 	padding-left: 1em;
 	padding-bottom: 0;
 }
@@ -124,12 +122,10 @@ img {
 }
 #links {
 	display: flex;
-	flex-flow: row wrap;
 	justify-content: space-around;
-	width: auto;
-	height: auto;
 	font-weight: bold;
 	background-color: #F9B76B;
+	padding: 0;
 }
 
 #footer p {
