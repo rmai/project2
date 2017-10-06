@@ -48,6 +48,7 @@ h1 {
 	line-height: 1.072em;
 	/* 44px/41.053px = 1.072em */
 	font-weight: bold;
+	padding-bottom: 0.188em;
 }
 
 h2, h3, h4, h5, h6 {
@@ -108,35 +109,27 @@ img {
      relationships
 */
 
-.nav ul {
-	list-style: none;
-	background-color: #FAAD28;
-	text-align: center;
-	padding: 0;
-	margin: 0;
-}
-
-.nav li {
-	font-size: 1.2em;
-	line-height: 1.2em;
-	height: 1.2em;
-}
-
 .nav a {
 	text-decoration: none;
 	color: #000000;
-	display: block;
 }
 
 #contact li {
 	list-style: none;
 	line-height: 0.5em;
 }
-
 #links li {
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
+
+}
+#links {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	width: auto;
+	height: auto;
+	font-weight: bold;
+	background-color: #F9B76B;
 }
 
 #footer p {
@@ -169,11 +162,11 @@ img {
 */
 @media screen and (min-width:27.625em)/*442px/16px = 27.625em*/ {
 	.nav ul {
-		word-spacing: 5em;
+		word-spacing: 5;
 	}
-	.nav li {
+	/*.nav li {
 			display: inline-block;
-	}
+	}*/
 }
 @media screen and (min-width:50.875em) /*814px/16px = 50.875em*/ {
 	.nav ul {
