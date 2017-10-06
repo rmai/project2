@@ -46,27 +46,34 @@ h1 {
 	line-height: 1.072em;
 	/* 44px/41.053px = 1.072em */
 	font-weight: bold;
-	padding-bottom: 0.188em;
+	padding-top: 22px;
+
+}
+h2 {
+	font-size: 1.802em;
+	/* 32.437px/18px = 1.802em */
+	padding-top: 0;
+	/* 22/32.437 = 0.678 */
+
+}
+h3 {
+	font-size: 1.602em;
+	/* 28.833/18 = 1.602 */
+	padding-bottom: 0.763em;
+	/* 22/28.833 = 0.763 */
 }
 
-h2, h3, h4, h5, h6 {
-	font-size: 2.281em;
-	/* 36.491px/16px = 2.281*/
-	line-height: 0.904em;
-	/* 22px/36.491px = 0.904em*/
-}
 p {
-	padding-bottom: 1.125em;
-	/*18px/16px = 1.1258*/
+	padding-bottom: 1.222em;
+	/* 22/18 = 1.222/2 = 0.611*/
 }
 
 li {
-	padding-bottom: 0.818em;
-	/* 18/22=0.6111 */
+	padding-bottom: 0;
 }
 
 ol, ul {
-	padding-bottom: 0.818em;
+	padding-bottom: 1.222em;
 	/* 18/22=0.818em */
 }
 
@@ -80,7 +87,7 @@ ul {
 }
 
 li ol, li ul {
-	padding-top: 0.818em;
+	padding-top: 0;
 	/* 18px/22px=0.818em */
 	padding-left: 1em;
 	padding-bottom: 0;
@@ -114,10 +121,11 @@ img {
 
 #contact li {
 	list-style: none;
-	line-height: 0.5em;
+	padding-bottom: 0;
 }
 #links li {
 	list-style-type: none;
+	padding-bottom: 0;
 
 }
 #links {
@@ -125,7 +133,10 @@ img {
 	justify-content: space-around;
 	font-weight: bold;
 	background-color: #F9B76B;
-	padding: 0;
+	font-size: 1.266em;
+	/* 22.781/18 = 1.266 */
+	padding-top: 22px;
+	padding-bottom: 22px;
 }
 
 #footer p {
