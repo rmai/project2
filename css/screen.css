@@ -142,10 +142,8 @@ img {
 
 #footer p {
 	text-indent: 0%;
-}
-
-#dear p {
-	padding: 0;
+	display: flex;
+	justify-content: center;
 }
 
 /* Modular Styles */
@@ -168,9 +166,3 @@ img {
   2. Influenced by JavaScript
   3. Organized by Base, Layout, Module, State
 */
-@media screen and (min-width:27.625em)/*442px/16px = 27.625em*/ {
-
-}
-@media screen and (min-width:50.875em) /*814px/16px = 50.875em*/ {
-
-}
