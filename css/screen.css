@@ -166,3 +166,8 @@ img {
   2. Influenced by JavaScript
   3. Organized by Base, Layout, Module, State
 */
+@media screen and (min-width: 600px) {
+	html {
+		font-size: 1.266em;
+	}
+}
