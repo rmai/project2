@@ -4,8 +4,8 @@
 */
 
 /* stylelint-disable*/
-
-a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html,.stylelint{line-height:1}body,.stylelint{line-height:inherit}ol,ul,.stylelint{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/*a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -16,7 +16,7 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section {
 	display: block
 }
-
+*/
 /* Base Styles */
 
 /*
@@ -29,6 +29,7 @@ html {
 	/* target/actual 18px/16px=1.125em */
 	line-height: 1.222em;
 	/* 22/18=1.222 */
+	background-color: #95BDED;
 }
 
 body {
@@ -117,7 +118,7 @@ img {
 
 .nav a {
 	text-decoration: none;
-	color: #000000;
+	color: white;
 }
 
 #contact li {
@@ -127,13 +128,12 @@ img {
 #links li {
 	list-style-type: none;
 	padding-bottom: 0;
-
 }
 #links {
 	display: flex;
 	justify-content: space-around;
 	font-weight: bold;
-	background-color: #F9B76B;
+	background-color: #055174;
 	font-size: 1.266em;
 	/* 22.781/18 = 1.266 */
 	padding-top: 22px;
