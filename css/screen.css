@@ -48,7 +48,6 @@ h1 {
 	/* 44px/41.053px = 1.072em */
 	font-weight: bold;
 	padding-top: 22px;
-
 }
 h2 {
 	font-size: 1.802em;
@@ -106,7 +105,9 @@ li li ul {
 img {
 	width: 100%;
 }
-
+footer {
+		text-shadow: 0 0 2px black;
+}
 /* Layout Styles */
 
 /*
