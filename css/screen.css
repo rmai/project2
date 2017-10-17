@@ -40,6 +40,11 @@ body {
 	padding-left: 1.222em;
 	/* 22px/18px = 1.222em */
 }
+h2,
+h3 {
+	padding-top: 11px;
+	padding-bottom: 11px;
+}
 
 h1 {
 	font-size: 2.281em;
@@ -56,12 +61,7 @@ h2 {
 	/* 22/32.437 = 0.678 */
 
 }
-h3 {
-	font-size: 1.602em;
-	/* 28.833/18 = 1.602 */
-	padding-bottom: 0.763em;
-	/* 22/28.833 = 0.763 */
-}
+
 
 p {
 	padding-bottom: 1.222em;
@@ -105,9 +105,7 @@ li li ul {
 img {
 	width: 100%;
 }
-footer {
-		text-shadow: 0 0 2px black;
-}
+
 /* Layout Styles */
 
 /*
