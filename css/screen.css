@@ -42,8 +42,8 @@ body {
 }
 h2,
 h3 {
-	padding-top: 11px;
-	padding-bottom: 11px;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
 }
 
 h1 {
@@ -52,8 +52,8 @@ h1 {
 	line-height: 1.072em;
 	/* 44px/41.053px = 1.072em */
 	font-weight: bold;
-	padding-top: 22px;
-	padding-bottom: 22px;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
 	display: flex;
 	justify-content: center;
 }
@@ -108,7 +108,9 @@ li li ul {
 img {
 	width: 100%;
 }
-
+footer {
+	padding-bottom: 0;
+}
 /* Layout Styles */
 
 /*
@@ -138,12 +140,11 @@ img {
 	background-color: #055174;
 	font-size: 1.266em;
 	/* 22.781/18 = 1.266 */
-	padding-top: 22px;
-	padding-bottom: 22px;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 
 #footer p {
-	text-indent: 0%;
 	display: flex;
 	justify-content: center;
 }
