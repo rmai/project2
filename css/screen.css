@@ -53,7 +53,7 @@ h1 {
 	line-height: 1.072em;
 	/* 44px/41.053px = 1.072em */
 	font-weight: bold;
-	padding-top: 0.5em;
+	padding-top: 1em;
 	padding-bottom: 0.5em;
 	display: flex;
 	justify-content: center;
@@ -65,8 +65,6 @@ h2 {
 	/* 22/32.437 = 0.678 */
 
 }
-
-
 p {
 	padding-bottom: 1.222em;
 	/* 22/18 = 1.222/2 = 0.611*/
@@ -131,7 +129,28 @@ figcaption {
 	text-decoration: none;
 	color: white;
 }
-
+#navigation {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+	font-weight: bold;
+	font-size: 1em;
+}
+#navigation li {
+  float: left;
+  width: 25%;
+}
+#navigation a {
+  display: block;
+  width: 100%;
+  padding-top: 1.222em;
+  padding-bottom: 1.222em;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #055174;
+}
 #contact li {
 	list-style: none;
 	padding-bottom: 0;
@@ -139,16 +158,6 @@ figcaption {
 #links li {
 	list-style-type: none;
 	padding-bottom: 0;
-}
-#links {
-	display: flex;
-	justify-content: space-around;
-	font-weight: bold;
-	background-color: #055174;
-	font-size: 1.266em;
-	/* 22.781/18 = 1.266 */
-	padding-top: 1em;
-	padding-bottom: 1em;
 }
 
 #footer p {
