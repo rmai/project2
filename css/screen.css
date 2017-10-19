@@ -106,10 +106,16 @@ li li ul {
 }
 
 img {
-	width: 100%;
+	width: 50%;
+	display: block;
+	margin: 0 auto;
 }
 footer {
 	padding-bottom: 0;
+}
+figcaption {
+	text-align: center;
+	padding-bottom: 1.222em;
 }
 /* Layout Styles */
 
