@@ -47,6 +47,7 @@ h3 {
 }
 
 h1 {
+	font-family: cursive;
 	font-size: 2.281em;
 	/* 41.053px/18px=2.281em*/
 	line-height: 1.072em;
