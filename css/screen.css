@@ -107,8 +107,6 @@ li li ul {
 
 img {
 	width: 100%;
-	display: block;
-	margin: 0 auto;
 }
 footer {
 	padding-bottom: 0;
@@ -186,10 +184,22 @@ figcaption {
   2. Influenced by JavaScript
   3. Organized by Base, Layout, Module, State
 */
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 28.125em) {
 	img {
 		width: 50%;
-		display: block;
-		margin: 0 auto;
+	}
+}
+@media screen and (min-width: 43.750em) {
+	#me {
+		float: left;
+	}
+	#bio {
+		margin-left: 22.875em;
+		float: left;
+		width: 42%;
+		clear: right;
+	}
+	#footer {
+		clear: both;
 	}
 }
