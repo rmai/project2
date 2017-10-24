@@ -30,6 +30,7 @@ html {
 	line-height: 1.222em;
 	/* 22/18=1.222 */
 	background-color: #95BDED;
+	padding: 0.75em;
 }
 
 body {
@@ -54,7 +55,7 @@ h1 {
 	/* 44px/41.053px = 1.072em */
 	font-weight: bold;
 	padding-top: 1em;
-	padding-bottom: 0.5em;
+	padding-bottom: 1em;
 	display: flex;
 	justify-content: center;
 }
@@ -105,7 +106,7 @@ li li ul {
 }
 
 img {
-	width: 50%;
+	width: 100%;
 	display: block;
 	margin: 0 auto;
 }
@@ -144,8 +145,8 @@ figcaption {
 #navigation a {
   display: block;
   width: 100%;
-  padding-top: 1.222em;
-  padding-bottom: 1.222em;
+  padding-top: 22px;
+  padding-bottom: 22px;
   text-align: center;
   text-decoration: none;
   color: white;
@@ -185,8 +186,10 @@ figcaption {
   2. Influenced by JavaScript
   3. Organized by Base, Layout, Module, State
 */
-@media screen and (min-width: 800px) {
-	html {
-		font-size: 1.266em;
+@media screen and (min-width: 450px) {
+	img {
+		width: 50%;
+		display: block;
+		margin: 0 auto;
 	}
 }
