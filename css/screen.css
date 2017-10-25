@@ -190,16 +190,29 @@ figcaption {
 	}
 }
 @media screen and (min-width: 43.750em) {
+	/*#randy {
+		display: flex;
+		justify-content: flex-start;
+		flex-wrap: wrap;
+	}
+
+
 	#me {
 		float: left;
+	  margin: 0 0 10px 10px;
+	}*/
+	img {
+		width: 22.675em;
+		padding-right: 1em;
+	}
+	figcaption {
+		text-align: center;
+		margin-right: 22em;
+		padding-top: 0;
 	}
 	#bio {
-		margin-left: 22.875em;
-		float: left;
-		width: 42%;
-		clear: right;
+		display: flex;
+		justify-content: space-around;
 	}
-	#footer {
-		clear: both;
-	}
+
 }
