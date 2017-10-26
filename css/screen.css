@@ -178,7 +178,11 @@ Hint: these tend to be:
 2. Influenced by JavaScript
 3. Organized by Base, Layout, Module, State
 */
-
+@media screen and (min-width: 17.5em) {
+ ul {
+   list-style-position: outside;
+ }
+}
 @media screen and (min-width: 31.125em) {
  #bio {
  width: 66%;
