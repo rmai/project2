@@ -86,9 +86,6 @@ li ol, li ul {
   padding-left: 1em;
   padding-bottom: 0;
 }
-/*li li:last-child {
-padding-bottom: 0;
-}*/
 li li ul {
   list-style-type: circle;
 }
@@ -105,7 +102,7 @@ figcaption {
 Hint: these tend to be
 1. IDs; but also classes, sometimes
 2. concerned with layout and spatial
-   relationships
+relationships
 */
 
 .nav a {
@@ -160,7 +157,7 @@ Repeating style patterns.
 Hint: these tend to be:
 1. classes and relationship selectors
 2. concerned with adjustments to base styles,
-    spacing, color, etc. etc.
+spacing, color, etc. etc.
 */
 
 /* State Styles */
@@ -194,14 +191,14 @@ Hint: these tend to be:
     width: 100%;
   }
   #skills {
-	  display: flex;
-	  flex-flow: wrap row;
+    display: flex;
+    flex-flow: wrap row;
   }
   #skills li {
-	  width: 50%;
+    width: 50%;
   }
   #resumefooter p {
-	  padding-bottom: 0;
+    padding-bottom: 0;
   }
 }
 @media screen and (min-width: 60em) {
