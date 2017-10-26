@@ -47,8 +47,8 @@ h2 {
  border-bottom: 0.0625em solid #000000;
  font-size: 1.802em;
  /* 32.437px/18px = 1.802em */
- padding-top: 0;
- /* 22/32.437 = 0.678 */
+ line-height: 1.356;
+ /* 44/32.437 = 1.356 */
 }
 
 h1 {
