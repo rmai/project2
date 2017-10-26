@@ -109,7 +109,7 @@ img {
 	width: 100%;
 }
 footer {
-	padding-bottom: 0;
+
 }
 figcaption {
 	text-align: center;
@@ -184,35 +184,19 @@ figcaption {
   2. Influenced by JavaScript
   3. Organized by Base, Layout, Module, State
 */
-@media screen and (min-width: 28.125em) {
-	img {
-		width: 50%;
-	}
-}
-@media screen and (min-width: 43.750em) {
-	/*#randy {
-		display: flex;
-		justify-content: flex-start;
-		flex-wrap: wrap;
-	}
 
-
-	#me {
-		float: left;
-	  margin: 0 0 10px 10px;
-	}*/
-	img {
-		width: 22.675em;
-		padding-right: 1em;
-	}
-	figcaption {
-		text-align: center;
-		margin-right: 22em;
-		padding-top: 0;
-	}
+@media screen and (min-width: 31.125em) {
 	#bio {
-		display: flex;
-		justify-content: space-around;
+		width: 66%;
+		float: right;
 	}
-
+	#me {
+		width: 30%;
+	}
+	#homefooter {
+		position: fixed;
+		bottom: 0;
+		display: flex;
+		text-align: center;
+	}
 }
