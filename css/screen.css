@@ -23,86 +23,81 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 	8:9 major scale
 	http://www.modularscale.com/?18&px&1.125
 */
-
 html {
- font-size: 1.125em;
- /* target/actual 18px/16px=1.125em */
- line-height: 1.222em;
- /* 22/18=1.222 */
- background-color: #95BDED;
- padding: 0.75em;
+  font-size: 1.125em;
+  /* target/actual 18px/16px=1.125em */
+  line-height: 1.222em;
+  /* 22/18=1.222 */
+  background-color: #95BDED;
+  padding: 0.75em;
 }
-
 body {
- padding-top: 2.444em;
- /* 44px/18px = 2.444em */
- padding-right: 1.222em;
- /* 22px/18px = 1.222em */
- padding-left: 1.222em;
- /* 22px/18px = 1.222em */
+  padding-top: 2.444em;
+  /* 44px/18px = 2.444em */
+  padding-right: 1.222em;
+  /* 22px/18px = 1.222em */
+  padding-left: 1.222em;
+  /* 22px/18px = 1.222em */
 }
 h2 {
- padding-top: 0.611em;
- padding-bottom: 0;
- border-bottom: 0.0625em solid #000000;
- font-size: 1.802em;
- /* 32.437px/18px = 1.802em */
- line-height: 1.356;
- /* 44/32.437 = 1.356 */
+  padding-top: 0.611em;
+  padding-bottom: 0;
+  border-bottom: 0.0625em solid #000000;
+  font-size: 1.802em;
+  /* 32.437px/18px = 1.802em */
+  line-height: 1.356;
+  /* 44/32.437 = 1.356 */
 }
-
 h1 {
- font-family: cursive;
- font-size: 2.281em;
- /* 41.053px/18px=2.281em*/
- line-height: 1.072em;
- /* 44px/41.053px = 1.072em */
- font-weight: bold;
- padding-top: 1em;
- padding-bottom: 1em;
- display: flex;
- justify-content: center;
+  font-family: cursive;
+  font-size: 2.281em;
+  /* 41.053px/18px=2.281em*/
+  line-height: 1.072em;
+  /* 44px/41.053px = 1.072em */
+  font-weight: bold;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  display: flex;
+  justify-content: center;
 }
 p {
- padding-bottom: 1.222em;
- /* 22/18 = 1.222/2 = 0.611*/
+  padding-bottom: 1.222em;
+  /* 22/18 = 1.222/2 = 0.611*/
 }
 li {
- padding-bottom: 0;
+  padding-bottom: 0;
 }
 ol, ul {
- padding-bottom: 1.222em;
- /* 18/22=0.818em */
+  padding-bottom: 1.222em;
+  /* 18/22=0.818em */
 }
-
 ol {
- list-style-type: decimal;
- list-style-position: inside;
+  list-style-type: decimal;
+  list-style-position: outside;
 }
-
 ul {
- list-style-type: disc;
- list-style-position: inside;
+  list-style-type: disc;
+  list-style-position: outside;
 }
 
 li ol, li ul {
- padding-top: 0;
- /* 18px/22px=0.818em */
- padding-left: 1em;
- padding-bottom: 0;
+  padding-top: 0;
+  /* 18px/22px=0.818em */
+  padding-left: 1em;
+  padding-bottom: 0;
 }
 /*li li:last-child {
 padding-bottom: 0;
 }*/
 li li ul {
- list-style-type: circle;
+  list-style-type: circle;
 }
 img {
- width: 100%;
+  width: 100%;
 }
 figcaption {
- text-align: center;
- padding-bottom: 1.222em;
+  text-align: center;
+  padding-bottom: 1.222em;
 }
 /* Layout Styles */
 
@@ -114,48 +109,48 @@ Hint: these tend to be
 */
 
 .nav a {
- text-decoration: none;
- color: white;
+  text-decoration: none;
+  color: white;
 }
 #navigation {
- position: absolute;
- width: 100%;
- top: 0;
- left: 0;
- font-weight: bold;
- font-size: 1.125em;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  font-weight: bold;
+  font-size: 1.125em;
 }
 #navigation li {
- float: left;
- width: 25%;
+  float: left;
+  width: 25%;
 }
 #navigation a {
- display: block;
- width: 100%;
- padding-top: 22px;
- padding-bottom: 22px;
- text-align: center;
- text-decoration: none;
- color: white;
- background-color: #055174;
+  display: block;
+  width: 100%;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #055174;
 }
 #navigation a:hover {
-	background-color: #95BDED;
-	color: black;
-	font-size: 125%;
+  background-color: #95BDED;
+  color: black;
+  font-size: 125%;
 }
 #contact li {
- list-style: none;
- padding-bottom: 0;
+  list-style: none;
+  padding-bottom: 0;
 }
 #links li {
- list-style-type: none;
- padding-bottom: 0;
+  list-style-type: none;
+  padding-bottom: 0;
 }
 
 .footer p {
- display: flex;
- justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 /* Modular Styles */
@@ -179,44 +174,44 @@ Hint: these tend to be:
 3. Organized by Base, Layout, Module, State
 */
 @media screen and (min-width: 17.5em) {
- ul {
-   list-style-position: outside;
- }
+  ul, ol {
+    list-style-position: inside;
+  }
 }
 @media screen and (min-width: 31.125em) {
- #bio {
- width: 66%;
- float: right;
- }
- #me {
-  width: 30%;
- }
- #homefooter {
-  position: fixed;
-  bottom: 0;
-  display: flex;
-  justify-content: center;
-  width: 100%;
- }
- #skills {
-	display: flex;
-	flex-flow: wrap row;
- }
- #skills li {
-	width: 50%;
- }
- #resumefooter p {
-	padding-bottom: 0;
- }
+  #bio {
+    width: 66%;
+    float: right;
+  }
+  #me {
+    width: 30%;
+  }
+  #homefooter {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  #skills {
+	  display: flex;
+	  flex-flow: wrap row;
+  }
+  #skills li {
+	  width: 50%;
+  }
+  #resumefooter p {
+	  padding-bottom: 0;
+  }
 }
 @media screen and (min-width: 60em) {
- html {
-  font-size: 1.125em;
- }
- h1 {
-  font-size: 2.566em;
- }
- h2 {
-  font-size: 2.027em;
- }
+  html {
+    font-size: 1.125em;
+  }
+  h1 {
+    font-size: 2.566em;
+  }
+  h2 {
+    font-size: 2.027em;
+  }
 }
