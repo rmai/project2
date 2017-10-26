@@ -139,6 +139,11 @@ Hint: these tend to be
  color: white;
  background-color: #055174;
 }
+#navigation a:hover {
+	background-color: #95BDED;
+	color: black;
+	font-size: 150%;
+}
 #contact li {
  list-style: none;
  padding-bottom: 0;
