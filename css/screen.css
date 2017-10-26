@@ -44,7 +44,8 @@ body {
 h2,
 h3 {
 	padding-top: 0.5em;
-	padding-bottom: 0.5em;
+	padding-bottom: 0em;
+	border-bottom: 0.0625em solid #000000;
 }
 
 h1 {
@@ -97,9 +98,9 @@ li ol, li ul {
 	padding-bottom: 0;
 }
 
-li li:last-child {
+/*li li:last-child {
 	padding-bottom: 0;
-}
+}*/
 
 li li ul {
 	list-style-type: circle;
@@ -159,7 +160,7 @@ figcaption {
 	padding-bottom: 0;
 }
 
-#footer p {
+.footer p {
 	display: flex;
 	justify-content: center;
 }
@@ -206,5 +207,8 @@ figcaption {
 	}
 	#skills li {
 		width: 50%;
+	}
+	#resumefooter p {
+		padding-bottom: 0;
 	}
 }
