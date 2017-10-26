@@ -142,7 +142,7 @@ Hint: these tend to be
 #navigation a:hover {
 	background-color: #95BDED;
 	color: black;
-	font-size: 150%;
+	font-size: 125%;
 }
 #contact li {
  list-style: none;
@@ -203,5 +203,16 @@ Hint: these tend to be:
  }
  #resumefooter p {
 	padding-bottom: 0;
+ }
+}
+@media screen and (min-width: 60em) {
+ html {
+  font-size: 1.125em;
+ }
+ h1 {
+  font-size: 2.566em;
+ }
+ h2 {
+  font-size: 2.027em;
  }
 }
