@@ -23,6 +23,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   font-size: 1.125em;
   /* target/actual 18px/16px=1.125em */
+  font-family: sans-serif;
   line-height: 1.222em;
   /* 22/18=1.222 */
   background-color: #95BDED;
@@ -47,6 +48,7 @@ h2 {
 }
 h1 {
   font-family: cursive;
+  font-style: italic;
   font-size: 2.281em;
   /* 41.053px/18px=2.281em*/
   line-height: 1.072em;
@@ -117,6 +119,7 @@ relationships
 #navigation li {
   float: left;
   width: 25%;
+  font-family: 
 }
 #navigation a {
   display: block;
