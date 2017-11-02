@@ -119,7 +119,6 @@ relationships
 #navigation li {
   float: left;
   width: 25%;
-  font-family: 
 }
 #navigation a {
   display: block;
@@ -184,7 +183,7 @@ Hint: these tend to be:
     width: 30%;
   }
   #homefooter {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     display: flex;
     justify-content: center;
@@ -196,9 +195,6 @@ Hint: these tend to be:
   }
   #skills li {
     width: 50%;
-  }
-  #resumefooter p {
-    padding-bottom: 0;
   }
 }
 @media screen and (min-width: 60em) {
