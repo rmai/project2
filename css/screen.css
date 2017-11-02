@@ -182,13 +182,6 @@ Hint: these tend to be:
   #me {
     width: 30%;
   }
-  #homefooter {
-    position: absolute;
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-  }
   #skills {
     display: flex;
     flex-flow: wrap row;
